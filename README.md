@@ -300,8 +300,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Community
 - **GitHub Issues**: Bug reports and feature requests
-- **Discord**: Community discussions and support
-- **Email**: enterprise@superior-agents.com for business inquiries
+- **Discussions**: Questions and community support
 
 ### FAQ
 
@@ -315,13 +314,11 @@ A: Yes! Follow the MCP protocol specification and our development guide to creat
 A: The platform is open-source and free to use. You only pay for the LLM API calls and cloud resources you consume.
 
 **Q: How do I scale agent deployments?**
-A: The platform supports Docker-based scaling. For enterprise deployments, contact us for Kubernetes orchestration options.
+A: The platform supports Docker-based scaling. For larger deployments, you can use Kubernetes orchestration with the provided Docker containers.
 
 ---
 
 <div align="center">
-<b>Built with ❤️ by the Superior Agents Team</b><br>
-<a href="https://superior-agents.com">Website</a> • 
-<a href="https://docs.superior-agents.com">Documentation</a> • 
-<a href="https://discord.gg/superior-agents">Discord</a>
+<b>Superior Agents Platform</b><br>
+<i>Open-source platform for intelligent agent development</i>
 </div>
