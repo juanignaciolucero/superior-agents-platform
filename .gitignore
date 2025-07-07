@@ -1,0 +1,333 @@
+# Superior Agents Platform - Git Ignore Rules
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# API Keys and Secrets
+*.key
+*.pem
+*.p12
+*.pfx
+secret*
+*secret*
+api-keys.json
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+agents-db.json
+agent-configs/*.json
+deployments/*.yml
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Node.js Dependencies
+node_modules/
+.npm
+.eslintcache
+*.tgz
+*.tar.gz
+
+# Python Dependencies
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Python Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Python Testing
+.coverage
+.pytest_cache/
+cover/
+htmlcov/
+.tox/
+.nox/
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Next.js
+.next/
+out/
+.swc/
+
+# Production Build
+build/
+dist/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Container Volumes
+agent_data/
+container_logs/
+
+# Deployment Files
+deployments/
+*.compose.yml
+compose.yml
+
+# Agent Configuration Files (generated)
+agent-configs/
+agents-db.json
+
+# MCP Configuration Files (may contain API keys)
+*-mcp-config.json
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Backup Files
+*.bak
+*.backup
+*.old
+
+# Archive Files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Local Development
+.local/
+local/
+
+# Testing
+test-results/
+playwright-report/
+coverage/
+
+# Package Manager Files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Runtime Agent Specific
+runtime-agent/data/agents.db
+runtime-agent/logs/
+runtime-agent/*.db
+
+# MCP Server Logs
+mcps/*/logs/
+mcps/*/*.log
+
+# Superior Agents Specific
+superior-agents-platform-clean/
+
+# Ignore any files containing sensitive information
+*secret*
+*password*
+*token*
+*credential*
+
+# Ignore compiled files
+*.pyc
+*.pyo
+*.class
+
+# Ignore large files that shouldn't be in git
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.flv
+*.webm
+
+# Ignore OS specific files
+Icon?
+
+# Ignore JetBrains IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ignore VS Code settings that are user-specific
+.vscode/settings.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# But keep some VS Code config for the project
+!.vscode/tasks.json
+!.vscode/recommended-extensions.json
+
+# Ignore Sublime Text files
+*.sublime-project
+*.sublime-workspace
+
+# Ignore Vim swap files
+*.swp
+*.swo
+
+# Ignore Emacs backup files
+*~
+\#*\#
+.\#*
+
+# Ignore any configuration that might contain secrets
+config/secrets/
+secrets/
+private/
+
+# Ignore generated documentation
+docs/_build/
+docs/build/
+
+# Ignore coverage reports
+.nyc_output/
+
+# Ignore dependency directories for other package managers
+bower_components/
+jspm_packages/
+
+# Ignore ESLint cache
+.eslintcache
+
+# Ignore Prettier cache
+.prettiercache
+
+# Ignore Stylelint cache
+.stylelintcache
+
+# Ignore microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Ignore Optional npm cache directory
+.npm
+
+# Ignore Optional eslint cache
+.eslintcache
+
+# Ignore Serverless directories
+.serverless/
+
+# Ignore FuseBox cache
+.fusebox/
+
+# Ignore DynamoDB Local files
+.dynamodb/
+
+# Ignore TernJS port file
+.tern-port
+
+# Ignore Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# Ignore Yarn Integrity file
+.yarn-integrity
+
+# Ignore dotenv environment variable files loaded by dotenv
+.env.test
+
+# Ignore parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Ignore Nuxt.js build / generate output
+.nuxt
+dist
+
+# Ignore Gatsby files
+.cache/
+public
+
+# Ignore Storybook build outputs
+.out
+.storybook-out
+
+# Ignore Temporary folders
+tmp/
+temp/
+
+# Ignore Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
